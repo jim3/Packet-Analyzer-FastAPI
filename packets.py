@@ -15,9 +15,9 @@ def ip_address(filepath):
         for e in data:
             if "ip" not in e["_source"]["layers"]:
                 continue
-            ip = e["_source"]["layers"]["ip"]  # grab object
+            ip = e["_source"]["layers"]["ip"]
             for e in ip_list:
-                if e in ip:  # if the key is in the object
+                if e in ip:
                     ip_set.add(ip[e])
         ip_list = list(ip_set)
         return ip_list
