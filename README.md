@@ -2,6 +2,13 @@
 
 Analyzes Wireshark network packets using Python and FastAPI to display the results in a web browser.
 
+Not really a translation of the Nodejs version, more of an extension. I plan to extend this project into other areas and hopefully add a database soon *once* I figure out what is best to use with FastAPI. 
+
+And FWIW, I am really liking FastAPI. It gives me everything I like about Nodejs and it's very easy to work with. I see why it's popular now! This project is a work-in-progress like most of the others, feel free
+to use it as a starting point for a new project.
+
+>Note: The app has only been tested to work on Linux (Ubuntu 22.04)
+
 ## Installation
 
 Use `requirements.txt` to install the required packages.
